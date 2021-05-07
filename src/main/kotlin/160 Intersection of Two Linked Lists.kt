@@ -1,3 +1,5 @@
+import model.ListNode
+
 /**
  * https://leetcode.com/problems/intersection-of-two-linked-lists/
  * */
@@ -13,8 +15,4 @@ fun getIntersectionNode(headA: ListNode?, headB: ListNode?): ListNode? {
         b = if (b == null) headA else b.next
     }
     return a
-}
-
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
 }

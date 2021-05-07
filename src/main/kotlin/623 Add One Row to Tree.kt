@@ -1,3 +1,5 @@
+import model.TreeNode
+
 /**
  * https://leetcode.com/problems/add-one-row-to-tree/
  * */
@@ -28,9 +30,4 @@ fun addNode(root: TreeNode?, v: Int, d: Int, isLeft: Boolean = true) {
             addNode(root.right, v, d - 1, false)
         }
     }
-}
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
 }
