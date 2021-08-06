@@ -1,4 +1,4 @@
-package needToStudy.tree
+package tree.needToStudy
 
 import model.TreeNode
 
